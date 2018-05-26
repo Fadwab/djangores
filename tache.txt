@@ -1,0 +1,266 @@
+/****** Les routes rug.module.ts *******/
+/****** Les liens rug-dialog.component.html ******/
+supprimier 
+modifier 
+consulter
+1) Dialog modifier
+
+2) Connexion (+-)
+
+3) Bouton supprimer
+
+4) Se deconnecter (+)
+
+5) interface de gestion des utilisateurs 
+    
+    dialog supprimer (+)
+    dialog consulter (+)
+    dialog modifier  (+ -)
+6)  interface de gestion des salles
+    dialog supprimer (+)
+    dilog consulter  (+)
+    dialog modifier  (+ -)
+
+
+7) creer un projet django 
+   creer les table 
+   activer les tables 
+   relier django et angular 
+
+   -------------------|
+                      |
+api reservation       | 
+api login , register  |-----------------> mer jeudi vendredi 
+api salle             |
+                      |
+   -------------------|
+
+backend chatbot
+
+
+
+
+
+
+-------------------------------------------------------- Latex----------------------------------------------------------
+couper la ligne sans commencer un nouveau paragraphe  \\
+commencer un nouveau paragraphe dans une nouvelle page \newpage
+commencer un nouveau paragraphe \newline
+{\sloppy .......} latex va tolérer plus d'espace entre les mos plutot que des les couper pour que la ligne
+ tienne sur la largeur de la page
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************ chatbot****************************/
+
+fullfilmed 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************** django ****************************************/
+
+
+django-admin startproject src : cree un projet django
+cd src : entrent dans le projet
+python manage.py startapp mysite : créent une nouvelle application, mysite.
+python manage.py migrate
+myenv\Scripts\activate
+
+
+
+ changement dans la base de donnée
+
+- python manage.py makemigrations nomdelaapp (base)
+_ python manage.py migrate
+
+
+
+*************projet smroom ***************
+login : fadwa
+password: alaf2011
+
+
+
+/**************************** Rapport *****************************************/
+
+2/4/2017 ---------------------------> 30/5/2017
+
+ 5 chapitre  9 semaines 
+ 1 chapitre 2 semaines (14 jours)  20 pages : 1 jours 3 pages 
+
+
+/************************* django rest framework  *******************/
+ 1 .API Endpoint(s) uri (url)
+ - Retrieve update Delete 
+ - create & List & Search
+2. HTTP methods
+ - GET , POST , PUT ,PATCH DELETE 
+
+
+3. Data Types & Validation 
+ - JSON -> Serializer
+ - Validation -> Serializer
+
+
+
+
+
+pour supprimer de la base 
+ 
+
+je donne l'id ----> il supprime
+
+
+
+
+______________________JWT
+
+
+
+
+
+Taches 
+ 
+les apis reservations ajout delete ***********************RECHERCHE***********************
+les apis salles ajout(+) supp(+) modif delete(+) affiche(+)
+css 
+
+ ngrev  genere des graphes 
+ devExtreme
+
+
+
+
+rapport:
+ conception :
+1 conception generale
+ architecture globale de l'applicaton
+  architecture du backend 
+  architecture du frontend
+
+
+mercredi 25/04/2018
+diag de seq s'authentifier 
+           Diagramme de séquence  système <<Supprimer une salle >>
+
+
+authentification 
+ gestion d'accès 
+
+
+
+
+
+------------------------------------------------------------------------
+port postgres 5432
+
+db.sqlite3
+
+
+class User(AbstractUser):
+    
+    matricule = models.IntegerField(primary_key=True)
+    nom = models.CharField(max_length=250)
+    prenom = models.CharField(max_length=250)
+    email = models.CharField(max_length=250)
+    adresse = models.CharField(max_length=250)
+    mot_de_passe = models.CharField(max_length=250)
+
+
+
+
+
+
+
+
+
+
+les diagrammes de séquence
+
+
+ 
+
+
+from django.conf.urls import url, include
+from django.contrib import admin
+
+
+urlpatterns = [
+    url(r'^admin/', admin.site.urls),
+    url(r'^api/', include(('api.urls'), namespace='api'))
+
+
+
+
+
+
+le 8/05/2018
+*************************************************rapport***************************
+8 jours :8/05/2018 -----------------------> 17/05/2018 ==> 40 pages
+5 pages par jours 
+*************************************************application***********************
+1)gestion des salles
+2)gestions de mes reservation 
+3)authentification 
+
+8/05/2018 : authentification dans mon projet
+
+9/05/2018  |
+           |
+10/05/2018 |-------> authentification admin/user  
+           |
+11/05/2018 |
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
